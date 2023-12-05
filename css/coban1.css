@@ -1,3 +1,58 @@
+a {
+    color: white;
+    text-decoration: none;
+}
+a:link {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+	color: grey;
+}
+.khung5 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left:30px;
+	margin-right:30px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top:10px;
+	padding-bottom:10px;
+	background-color: rgb(255, 255, 255);
+	font-size: 20px;
+	color: black;
+	background-image: url("nenlayer.jpg");
+    border: 1px solid rgb(40, 40, 41);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.cot4 {
+	float: right;
+	width: 55%;
+  }
+.cot3 {
+	float: left;
+	width: 45%;
+  }
+
+.cot2 {
+	float: right;
+	width: 80%;
+  }
+.cot1 {
+	float: left;
+	width: 20%;
+  }
+  
+  /* Clear floats after the columns */
+  .chiacot:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+ 
 
 .nenmenu {
 	border: 1px solid grey;
@@ -11,8 +66,8 @@
 	overflow:auto;}
 
 .nentrang {
-    border: 1px solid grey;
-    background-image: url("sach.jpg");
+    border: 1px solid rgb(14, 13, 13);
+	background-color: rgb(240, 232, 232);
 	background-size: cover;
 	color:black;
 	padding-top:10px;
@@ -32,11 +87,11 @@
 	padding-right: 30px;
 	padding-top:10px;
 	padding-bottom:10px;
-	background-color: none;
+	background-color: rgb(255, 255, 255);
 	font-size: 20px;
-	color: white;
-	background-image: none;
-    border: 1px solid rgb(67, 98, 156);
+	color: black;
+	background-image: url("sach.jpg");
+    border: 1px solid rgb(40, 40, 41);
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
@@ -59,7 +114,7 @@
 	padding-top:10px;
 	padding-bottom:10px;
 	margin-top:20px;
-	background-image: url("lol.jpg");
+	background-image: url("meo.jpg");
 	background-size: cover;
 	overflow:auto;}
 .bo {
@@ -169,8 +224,8 @@ table {width:auto; height:auto; border:1px solid rgb(90, 89, 89); margin:20px 20
 .tab button {
     background-color: grey;
     float: center;
-	padding-right:20px;
-	padding-left:20px;
+	padding-right:10px;
+	padding-left:10px;
     border: none;
     outline: none;
     cursor: pointer;
@@ -195,7 +250,7 @@ table {width:auto; height:auto; border:1px solid rgb(90, 89, 89); margin:20px 20
 /* Create an active/current tablink class */
 .tab button.active {
     background-color: white;
-	width: 60%;
+	width: 40%;
 	color: black;
 	-webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -212,87 +267,73 @@ table {width:auto; height:auto; border:1px solid rgb(90, 89, 89); margin:20px 20
 .cangiua {
  text-align: center;
 }
-a {
-    color: white;
-    text-decoration: none;
-}
-a:link {
-    color: white;
-    text-decoration: none;
-}
-a:hover {
-	color: grey;
-}
 .chon {
-  background:#F1F1F1;
-}
-#menu ul {
-  background: #0b7dda;
-  list-style-type: none;
-  text-align: center;
-}
-#menu li {
-  color: #f1f1f1;
-  display: inline-block;
-  width: 120px;
-  height: 40px;
-  line-height: 40px;
-  margin-left: 5px;
-  margin-top: 7px;
-  margin-bottom: 7px;
-}
-#menu a {
-  text-decoration: none;
-  color: #fff;
-  display: block;
-}
-#menu a:hover {
-  background: #F1F1F1;
-  color: #333;
-}
-
-.bg { 
-  /* The image used */
-  background-image: url("nen.png");
-
-  /* Full height */
-  height: 100%; 
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-/* Style the search field */
-form.example input[type=text] {
-  padding: 10px;
-  font-size: 17px;
-  border: 1px solid grey;
-  float: left;
-  width: 80%;
-  background: #f1f1f1;
-}
-
-/* Style the submit button */
-form.example button {
-  float: left;
-  width: 20%;
-  padding: 10px;
-  background: #2196F3;
-  color: white;
-  font-size: 17px;
-  border: 1px solid grey;
-  border-left: none; /* Prevent double borders */
-  cursor: pointer;
-}
-
-form.example button:hover {
-  background: #0b7dda;
-}
-
-/* Clear floats */
-form.example::after {
-  content: "";
-  clear: both;
-  display: table;
-}
+    background:#F1F1F1;
+  }
+  #menu ul {
+    background: #0b7dda;
+    list-style-type: none;
+    text-align: center;
+  }
+  #menu li {
+    color: #f1f1f1;
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 5px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+  }
+  #menu a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+  }
+  #menu a:hover {
+    background: #F1F1F1;
+    color: #333;
+  }
+  
+  .bg { 
+    /* The image used */
+    background-image: url("duoi.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* Style the search field */
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+  
+  /* Style the submit button */
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  
