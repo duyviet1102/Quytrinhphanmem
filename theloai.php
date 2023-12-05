@@ -39,7 +39,7 @@
 
 </div>
 </div><br>
-<span style="font-size = 20px">
+<span style="font-size:20px">
 Hiện đang cập nhật thêm...</span>
 </div>
 <?php

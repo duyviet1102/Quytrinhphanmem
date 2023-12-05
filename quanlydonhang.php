@@ -86,10 +86,15 @@
 <font color=black>Số điện thoại: <?php echo $inra2['Sdt']?></font><br>
 	<font color=black>Địa chỉ: <?php echo $inra2['Diachi']?></font><br>
 	<font color=lime>Ngày đặt hàng: <?php echo $goira['Ngaymua']?></font> <br>
-	<font color=orange>Trạng thái: <?php if ($goira['Trangthai']==0) {
+	<font color=orange>Trạng thái: <?php 
+	if ($goira['Trangthai']==0) {
 		echo '<font color=red>Đợi xác nhận - đang giao</font>
 	<form action="" method="post">
-	<input type="submit" name="<?php echo $mhd?>" value="Xác nhận đã thanh toán"/>';}else{echo '<font color=green>Đã thanh toán</font>';} ?></font><br></span>
+	<input type="submit" name="' . $mhd . '" value="Xác nhận đã thanh toán"/>';}
+	else
+	{
+		echo '<font color=green>Đã thanh toán</font>';
+		} ?></font><br></span>
 </b></div>
 		</div>
 </div>

@@ -1,7 +1,7 @@
 <div class="duoi">
 <div class="row">
 <div class="col-2"><img style="width:80%;margin-left:20px;margin-top:30px;" src="img/logo1.png"/><center><div class="" style="padding-left:10px;padding-bottom:30px;"><span style="font-size:11px;color:white;">Website mua sách đáng tin cậy</span></div></center></div>
-<div class="col-5"><div class="khung">Nhóm phát triển</div><center><br><span style="color:white;font-size:12px">Phạm Hoàng Hải - 1821050642</span>
+<div class="col-5"><div class="khung">Nhóm phát triển</div><center><br><span style="color:white;font-size:12px">Đào Duy Việt - Đoàn Hải Long - Nghiêm Đức Mỹ</span>
 </center></div>
 <div class="col-5"><div class="khung" style=margin-right:20px>Liên kết</div><center><br><span style="color:white;font-size:12px">Hiện chưa có liên kết nào</span><br><span style="color:white;font-size:12px">Liên hệ: Haikkpro@gmaill.com để được liên kết<span></center></div>
 </div>
