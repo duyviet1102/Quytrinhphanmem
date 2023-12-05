@@ -9,7 +9,7 @@
 	 <title>Website mua sách LoreBook</title>
 	 <link rel="shortcut icon" href="img/logo1.png"/>
 	 <link rel="stylesheet" href="css/bootstrap.css"/>
-   <link id="theme" rel="stylesheet" href="css/coban2.css"/>
+   <link id="theme" rel="stylesheet" href="css/coban1.css"/>
 	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	 <style type="text/css">
 	 

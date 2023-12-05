@@ -21,12 +21,13 @@ session_start();
       echo "<a href=nguoidung.php style=color:red>".$_SESSION['Tk']."</a><br> <a href=giohang.php style=color:green><img style=width:40px;height:40px; src=img/giohang.png> Giỏ hàng</a>";
       echo "<a href='logout.php'><br> Đăng xuất </a><br>";
    } else{
-      echo"<a href='login.php'>★ Đăng nhập</a><br><a href='dangki.php'>- Đăng ký</a>";
+      echo"<a href='login.php'>★ Đăng nhập</a><br><a href='dangki.php'>★ Đăng ký</a>";
    }
 ?>
 </font></b>
 </div>
-</div></div>
+</div>
+</div>
 <div id="menu" style="margin-top:-10px">
   <ul><b>
     <li class="chon"><a href="index.php" style="color: #0b7dda;">Trang chủ</a></li>
